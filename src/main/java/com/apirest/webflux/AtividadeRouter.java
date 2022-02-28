@@ -9,11 +9,11 @@ import org.springframework.web.reactive.function.server.RouterFunctions;
 import org.springframework.web.reactive.function.server.ServerResponse;
 import static org.springframework.web.reactive.function.server.RequestPredicates.*;
 
-
-@Configuration
+// Comentado para desabilitar o Router
+//@Configuration
 public class AtividadeRouter {
 
-	@Bean
+	//@Bean
 	public RouterFunction<ServerResponse> route(AtividadeHandler handler){
 		return RouterFunctions
 				.route(GET("/atividade").and(accept(MediaType.APPLICATION_JSON)), handler::findAll)

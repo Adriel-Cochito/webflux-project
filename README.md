@@ -9,8 +9,18 @@
 ### Ferramentas 
 - MLab Cloud
 - Spring Tool Suite
-- Postman
 
 ### Dependências
 - Reactive Web
 - Reactive MongoDB
+
+### Events Stream
+- Programação reativa como no exemplo abaixo
+#### Programação Assincrona e não bloqueante
+- É uma programação que permite realizar outras requisições antes de finalizar as anteriores.
+- Esta programação foi criada no projeto liberando 1 lista a cada 10 segundos no metodo GET que busca todas as listas
+Podemos conferir no link abaixo
+
+'''
+http://localhost:8080/atividade/webflux
+'''

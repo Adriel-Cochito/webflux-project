@@ -15,7 +15,8 @@ import reactor.core.publisher.Mono;
 import static org.springframework.web.reactive.function.server.ServerResponse.ok;
 import static org.springframework.web.reactive.function.BodyInserters.fromPublisher;
 
-@Component
+//Comentado para desabilitar o Router
+//@Component
 public class AtividadeHandler {
 
 	@Autowired
