@@ -4,11 +4,11 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document
-public class Atividades {
+public class Atividade {
 
 	
 	
-	public Atividades(String id, String nome) {
+	public Atividade(String id, String nome) {
 		super();
 		this.id = id;
 		this.nome = nome;
