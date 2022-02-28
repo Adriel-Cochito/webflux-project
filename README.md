@@ -24,3 +24,12 @@ Podemos conferir no link abaixo
 '''
 http://localhost:8080/atividade/webflux
 '''
+
+
+### Para conectar ao banco de dados
+
+Ao criar o Banco de dados em [MLab Cloud](https://mlab.com/), você deverá ir em 'Database>Connect' e copiar o link como no exemplo abaixo para colar no properts da sua aplicação, substituindo o '<username>' e '<password>' pelo usuario e senha que foi cadastrado para acessar o banco de dados
+ 
+'''
+mongodb+srv://<username>:<password>@cluster0.qihhv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+'''
