@@ -13,7 +13,7 @@ import com.apirest.webflux.service.AtividadeService;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
-@RestController
+//@RestController
 public class AtividadeController {
 
 	@Autowired
